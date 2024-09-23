@@ -1,0 +1,47 @@
+body {
+    background-image: url(https://terrorempauta.com/wp-content/uploads/2024/01/Casa-assombrada.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-family: "Baskervville SC", serif;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 700px;
+    z-index: 1000;
+    margin: 0;
+    flex-direction: column;
+}
+
+button {
+
+    size-adjust: 40px;
+    font-size: 27px;
+    background-color: lightgray;
+    font-family: "Baskervville SC", serif;
+}
+
+header {
+
+    font-size: 40px;
+    text-align:center;
+    display: flex;
+    align-items:center;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: #6c0000;
+    z-index: 1000; 
+    justify-content: center;
+    
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
